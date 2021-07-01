@@ -1,0 +1,91 @@
+h1{
+    color: red
+}
+body{
+    margin:0px;
+    background-color: #e5f7e5;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: lightblue;
+    border: 5px solid black;
+    border-radius: 50px;
+    margin:20px;
+}
+.origami{
+    border-radius: 20px;
+    font-family:'Times New Roman';
+}
+.grp1{
+    display:flex;
+    border: 2px solid black;
+    border-radius: 45px;
+}
+.grp2{
+    display:flex;
+    border: 2px solid black;
+    border-radius: 45px;
+}
+.header{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 45px;
+}
+.menu{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    background-color: chartreuse;
+    border: 2px solid black;
+    border-radius: 45px;
+    padding:15px;
+    font-size:20px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.instructions{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:bisque;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.grp1 div{
+    width:33%;
+}
+.grp2 div{
+    width:33%
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color:blueviolet
+}
+a:visited{
+    color:black
+}
+a:hover{
+    color:blue
+}
+img:hover{
+    transform:scale(1.2);
+}
+.bodyimg{
+    position: relative
+}
+.bodyimg p{
+    position:absolute;
+    color: white;
+    font-size: 55px;
+    font-family: fantasy;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
