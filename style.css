@@ -64,12 +64,13 @@ body{
 }
 a{
     text-decoration: none;
+    margin: 20px;
 }
 a:link{
     color:blueviolet
 }
 a:visited{
-    color:black
+    color:red
 }
 a:hover{
     color:blue
